@@ -1,0 +1,122 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    display: inline-block;
+}
+html,
+body {font-family:"Helvetica Neue", Helvetica, Arial, SolaimanLipi ,sans-serif,SolaimanLipiNormal;font-size:15px;background-color: #eee;margin: 10px 0; }
+body {
+}
+a:hover { text-decoration: none }
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.container{background-color: #fff;padding: 20px 40px 0 40px;}
+p{display: inline-block;}
+.logo{padding: 30px 0px;text-align: center;background-color: darkgray;}
+.motamot img{height: 70px;width: 75px;border-radius: 20px;padding-bottom: 20px;padding-left: 5px; }
+.motamot p{width: 155px;text-align: justify; }
+.motamot{border: 1px solid #ddd;text-align: center;padding-top: 5px;margin: 2px}
+.top-img1{padding: 20px 20px;;}
+.ListNew {padding: 10px;}
+.motamot-img {padding: 10px 0px;border: 1px solid #ddd;margin: 3px;}
+.motamot-img p{width: 200px;color: black;padding-left: 5px;}
+.main-cont {padding: 15px 7px}
+.main-cont a img{padding: 2px;border: 1px solid #ddd;}
+.main-cont p{padding: 5px 0px;color: black}
+.four-item{padding: 15px 25px;background-color:rgba(169, 169, 169, 0.29);border-bottom: 2px solid red;height: 220px}
+.four-single img{border: 1px solid red}
+.four-item p{padding: 10px 0px;color: black;}
+.amr-ekus-add{padding: 30px;padding-left: 35px;}
+.slide-item p{padding-top: 10px;color: black;}
+.slider-bttom-add{padding: 20px 0px;}
+.jatio-left h4{padding-top: 15px;}
+.jatio-left-img{padding: 10px;background-color:#ddd}
+.jatio-menu a img{text-align: center;}
+.jatio-menu ul{list-style: none}
+.jatio-menu ul li{padding: 10px 0px;border-bottom: 1px solid}
+.jatio-menu ul li a{}
+.jatio{background-color:rgba(165, 42, 42, 0.89) ;text-align: center;padding-top: 5px}
+.jatio p{color: white;font-size: 25px;}
+.jatio-text {padding-top: 20px;}
+.rajniti{background-color: aquamarine;padding-top: 10px;border-bottom: 2px solid red;}
+.mul-part h4{color: black;}
+.LListNew{padding-top: 20px;border: 1px solid #ddd;background-color: burlywood}
+.LListNew ul{list-style: none}
+.LListNew ul li{display: inline-block;}
+.LListNew ul li a{padding: 10px 20px;color: white;}
+.LListNew ul li a:hover{padding: 10px 40px;background-color: brown;color: white;}
+.mistNew{border: 1px solid #ddd;}
+.mistNew ul li{padding: 10px 0px;}
+.mistNew ul li a{color: black;}
+.ajker-khobp{text-align: center;padding-top: 10px;background-color: rgba(165, 42, 42, 0.79);margin: 30px 45px;border-radius: 15px;}
+.ajker-khobp h1{color: black;}
+.asif-add a img{padding: 10px 0px;}
+.amr-video-add {text-align: center;padding: 20px;}
+.khela{padding: 5px 10px;background-color:rgba(165, 42, 42, 0.79);}
+.khela p{color: white;font-size: 25px;}
+.messi{padding: 20px 0px}
+/* slider */
+.slider-wrapper {margin: 10px 30px;}
+/* slider end */
+/* brakingnews*/
+    <style>
+	.editorChoice{ position: fixed; bottom:0; left: 0; background: #026DBD; font-size: 16px; margin-top: 10px; position: relative;padding: 10px;}
+	.editorChoice .sitewidth{ border: 1px solid #026DBD; overflow: hidden; background: #f3f3f3}
+	.editorChoice marquee{ float: left; width: 100%; height: 30px}
+	.editorChoice .br-title{ color: #FFF; float: left; background: #026DBD; position: absolute; left: 16px; top: 0px; height: 22px; z-index: 99;padding: 15px;}
+	.editorChoice ul{ width: 100%; margin: 0px}
+	.editorChoice ul li{ float: left; list-style: none; padding: 4px; margin: 0 10px 0 5px}
+	.editorChoice ul li img { margin-right: 10px}
+	.editorChoice ul li a{ text-decoration: none; color: #000}
+.add{text-align: center;padding: 10px;}
+.photo-gallery{border-bottom: 2px solid #ddd;font-size: 25px;}
+.english{background-color: brown;margin-top: 10px;}
+.english p{padding: 5px;color: white}
+.artho-title{border-bottom: 2px solid red;padding-top: 30px;}
+.artho-title a{padding: 10px 37px;border-top-right-radius: 6px;background-color: crimson;color: black}
+.antorjatik-title{border-bottom: 2px solid yellow;padding-top: 30px;}
+.antorjatik-title a{padding: 10px 37px;border-top-right-radius: 6px;background-color:darkgoldenrod;color: black}
+/* Footer */
+.footer-area{background-color:rgba(0, 0, 0, 0.85);color: white}
+.footer-menu ul{list-style: none;text-align: center;padding-top: 20px;}
+.footer-menu ul li{display: inline-block;}
+.footer-menu ul li a{text-decoration: none;padding: 2px 5px;color:white;border: 1px solid #ddd;}
+.footer-text p{padding: 20px;text-align:justify;}
+.f-logo{padding: 10px;}
+.f-stitle{display: inline-block;background-color:rgba(0, 0, 0, 0.85);margin-left: 35px}
+.f-stitle form input{display: inline-block;background-color:rgba(0, 0, 0, 0.85);color: white;border: none;width: 100px;text-align: center;}
+.f-stitle form  span{padding-left: 20px;}
+.f-stitle a img{display: inline-block;width: 210px;height: 80px;padding-top: 15px;}
+.f-stitle p{background-color:rgba(0, 0, 0, 0.85);padding: 10px 70px;text-align: center;border-bottom: 2px solid white}
+.fs-img img{display: inline-block;width: 200px;float:right;height: 70px;padding-top: 15px;}
+.sompadok {text-align:justify;padding: 15px;line-height: 25px;}
+.f-first p{padding-left: 10px;line-height: 35px}
+.f-last {padding-top: 35px;color: white;}
+.f-rast p{float: right;}
+.f-last p{padding: 5px;float: left;}
+/* Footer end */

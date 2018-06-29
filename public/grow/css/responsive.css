@@ -1,0 +1,27 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    .motamot p{width:300px; }
+.motamot-img p{width:300px;}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    
+.LListNew ul li a:hover{padding: none;}
+.ajker-khobp{margin: 30px 5px;} 
+.motamot p{width: 135px; }
+.motamot-img p{width: 146px;padding: 5px}
+.f-stitle{margin-left:0px} 
+.f-stitle form  span{padding-left: 10px;}
+.f-stitle p{padding: 10px 58px;}    
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
